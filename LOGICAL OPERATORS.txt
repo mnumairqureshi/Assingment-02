@@ -1,0 +1,17 @@
+void main() { 
+  
+  var a = 10; 
+   var b = 12; 
+   var res1 = (a<b)&&(b>a); 
+   print(res1);
+  
+  
+   var aa = 12; 
+   var bb = 14; 
+   var res = (aa>bb)||(bb<aa); 
+   print(res);  
+    
+   
+  var res2 =!(a>50); 
+   print(res2);
+}    
