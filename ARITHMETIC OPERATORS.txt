@@ -1,0 +1,23 @@
+void main() {
+ var heading = '~~~~~ARITHMETIC OPERATORS~~~~~';
+    print (heading);
+  int add = 1+1;
+    print ('Addition +${add}');
+  num multi = 2*2;
+    print ('Multiplication *${multi}');
+  double divide = 10/2;
+    print ('division /${divide}');
+  var sub = 10-2;
+    print ('Subtraction -${sub}');        
+  var res = 32~/2; 
+    print("Division Returning Integer ~/${res}"); 
+  double rest = 101%2; 
+    print("Remainder %${rest}");
+  
+  var inc1 = 101; 
+  var inc2 = 2;
+      inc1++; 
+    print("Increment: ${inc1}"); 
+      inc2--; 
+    print("Decrement: ${inc2}");
+}
