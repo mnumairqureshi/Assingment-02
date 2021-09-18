@@ -1,0 +1,33 @@
+void main() { 
+   var num1 = 5; 
+   var num2 = 9; 
+   var greater = num1>num2; 
+   print('num1 greater than num2 ${greater}'); 
+
+     var num3 = 5; 
+   var num4 = 9;
+  var less = num3<num4; 
+   print('num3 less than num4 ${less}');
+  
+  var num5 = 5; 
+   var num6 = 9;
+   var greateq = num5 >= num6; 
+   print('num5 greater than or equal to num6 ${greateq}');
+   
+var num7 = 5; 
+   var num8 = 9;
+   var lesseq = num7 >= num8; 
+   print('num7 less than or equal to num8 ${lesseq}');
+  
+  var num9 = 5; 
+   var num10 = 9;
+    var noteq = num9 != num10; 
+   print('num9 not equal to num10 ${noteq}'); 
+   
+    var num11 = 5; 
+   var num12 = 9;
+    var eq = num11 == num12; 
+   print('num11 equal to num12 ${eq}');
+  
+  
+} 
