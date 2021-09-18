@@ -1,0 +1,7 @@
+void main() { 
+  
+var ticket = 600;
+  int person = 5;
+  var result = ticket*person;
+  print ('Total Ticket Price Rs${result}.00');
+}   
